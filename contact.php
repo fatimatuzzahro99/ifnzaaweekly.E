@@ -10,14 +10,14 @@
 
 <body>
 
-    <h1 align="center">KONTAK</h1>
+    <h1 align="center">Contact</h1>
 
     <!-- Navigasi pakai tabel -->
     <table border="1" cellpadding="10">
         <tr>
             <td><a href="index.php">Home</a></td>
             <td><a href="profil.php">Profile</a></td>
-            <td><a href="kontak.php">Kontak</a></td>
+            <td><a href="contact.php">Contact</a></td>
             <td><a href="mahasiswa.php">Data Mahasiswa</a></td>
         </tr>
     </table>

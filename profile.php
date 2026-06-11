@@ -13,9 +13,6 @@
     <h1 class="title">PROFILE</h1>
 
     <table class="nav-table">
-        margi:n: 0 auto;
-        border: 1px solid #000;
-        >
         <tr>
             <td><a href="index.php">Home</a></td>
             <td><a href="profile.php">Profile</a></td>
