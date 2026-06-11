@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact | INFORMATIKA 2026</title>
+    <link rel="stylesheet" href="css/kontak.css">
 </head>
 
 <body>
@@ -14,10 +15,10 @@
     <!-- Navigasi pakai tabel -->
     <table border="1" cellpadding="10">
         <tr>
-            <td><a href="index.html">Home</a></td>
-            <td><a href="profile.html">Profile</a></td>
-            <td><a href="contac.html">Kontak</a></td>
-            <td><a href="mahasiswa.html">Data Mahasiswa</a></td>
+            <td><a href="index.php">Home</a></td>
+            <td><a href="profil.php">Profile</a></td>
+            <td><a href="kontak.php">Kontak</a></td>
+            <td><a href="mahasiswa.php">Data Mahasiswa</a></td>
         </tr>
     </table>
 
@@ -27,8 +28,8 @@
 
 
         <div class="info">
-            <p>Email: fatimahwawa86@email.com</p>
-            <p>Telp: +6282115367329</p>
+            <p>Email: informatika@email.com</p>
+            <p>Telp: +628888888</p>
         </div>
     </div>
 
