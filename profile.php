@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile | INFORMATIKA 2026</title>
-
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/profil.css">
 </head>
 
 <body>
 
-    <h1 class="title">PROFILE</h1>
+    <h1 align="center">PROFILE</h1>
 
-    <table class="nav-table">
+    <!-- Navigasi pakai tabel -->
+    <table border="1" cellpadding="10">
         <tr>
             <td><a href="index.php">Home</a></td>
             <td><a href="profile.php">Profile</a></td>
@@ -21,18 +22,18 @@
         </tr>
     </table>
 
+    <!-- Card Profil -->
     <div class="card">
-        <img src="assets/image/kelinci abu.jpg" alt="Foto Profil">
-
-        <h2>Fatimatuzzahro'</h2>
-
+        <img src="https://via.placeholder.com/120" alt="foto profil">
+        <h2>Fatimatuzzahro</h2>
         <p>Mahasiswa Informatika</p>
 
         <hr>
 
-        <p>Email: fatimatuzzahro@email.com</p>
-        <p>Hobi: Bulutangkis</p>
+        <p>Email: Fatimmatuzzahro@email.com</p>
+        <p>Hobi: Makan</p>
     </div>
 
 </body>
+
 </html>
