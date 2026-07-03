@@ -1,23 +1,25 @@
 <?php
 
-require "fungsi.php";
+    require 'fungsi.php';
 
-    $id = $_GET['id'];
-    if(hapusdata($id) > 0) {
-        echo "<script>
+    $id = $_GET["id"];
+
+    if(hapusdata($id) > 0)
+        {
+            echo "<script>
 
             alert('Data berhasil di hapus!');
-            window.location.href='mahasiswa.php';
+            window.loaction.hrefs='mahasiswa.php';
             
-            </script>";
-    }
+            </script>"; 
+        }
 
     else {
-        echo "<script>
+            echo "<script>
 
             alert('Data gagal di hapus!');
-            window.location.href='mahasiswa.php';
+            window.loaction.hrefs='mahasiswa.php';
 
             </script>";
-    }
+        }
 ?>

@@ -1,10 +1,16 @@
 <?php
 
-require "fungsi.php";
+    require "fungsi.php";
 
-$qmahasiswa = "SELECT * FROM mahasiswa";
+    if(!isset($_SESSION["login"]))
+        {
+            header("Location: login.php");
+            exit;
+        }
 
-$qmahasiswas = tampildata($qmahasiswa); // array associative
+    
+    $qmahasiswa = "SELECT * FROM mahasiswa";
+    $qmahasiswas = tampildata($qmahasiswa); // array associative
 
 ?>
 
@@ -20,7 +26,7 @@ $qmahasiswas = tampildata($qmahasiswa); // array associative
 
 
 <body>
-
+    < a href="logout.php" style="text-decoration: none; color: black; font-size: 20px; margin-left: 20px;">Logout</a>
     <h1 align="center">DATA MAHASISWA</h1>
 
     <!-- Menu Navigasi -->
@@ -69,7 +75,7 @@ $qmahasiswas = tampildata($qmahasiswa); // array associative
             <td><?= $mhs["no_hp"] ?></td>
             <td><img src="Asset/Image/<?= $mhs["foto"] ?>" width="80"></td>
             <td>
-                <a href="editdata.php"><button>Edit</button></a>
+                <a href="ubahdata.php?id=<?= $mhs['id'] ?>"><button>Edit</button></a>
                 <a href="hapusdata.php?id=<?= $mhs['id'] ?>" onclick="return confirm('YAKEUNNN?')"><button>Hapus</button></a>
             </td>
         </tr>
